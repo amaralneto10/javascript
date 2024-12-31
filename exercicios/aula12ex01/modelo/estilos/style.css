@@ -8,6 +8,12 @@
     text-decoration: none;
 }
 
+:root {
+    --manha: #89CEF8;
+    --tarde: #EE6F04;
+    --noite: #032241;
+}
+
 body {
     background: #0daeca;
     
@@ -16,6 +22,7 @@ body {
 header {
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 section {
@@ -28,8 +35,13 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
 }
 
+#msg {
+    padding: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 10px;
 }
